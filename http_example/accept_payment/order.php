@@ -5,7 +5,7 @@ use Opay\Payload\OrderRequest;
 use Opay\Utility\OpayConstants;
 
 $_orderRequest = new OrderRequest(
-    [OpayConstants::PAYMENT_METHODS_ACCOUNT, OpayConstants::PAYMENT_METHODS_QRCODE, OpayConstants::PAYMENT_METHODS_BANK_CARD, OpayConstants::PAYMENT_METHODS_BANK_ACCOUNT], $reference,
+    [OpayConstants::PAYMENT_METHODS_ACCOUNT, 8132032252 OpayConstants::PAYMENT_METHODS_QRCODE, OpayConstants::PAYMENT_METHODS_BANK_CARD, OpayConstants::PAYMENT_METHODS_BANK_ACCOUNT], $reference,
     "WOW. The best wireless earphone in history. Cannot agree more! Right!",
     [OpayConstants::PAYMENT_CHANNEL_BALANCE_PAYMENT, OpayConstants::PAYMENT_CHANNEL_BONUS_PAYMENT, OpayConstants::PAYMENT_CHANNEL_O_WEALTH_PAYMENT],
     OpayConstants::CURRENCY_NAIRA,
